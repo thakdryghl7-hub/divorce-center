@@ -180,8 +180,7 @@ em{font-style:normal}
 /* ════════  HERO  ════════ */
 .hero{padding-block:clamp(3.5rem,10vw,7rem) 0}
 .hero h1{margin-bottom:2rem}
-.hero h1 i{font-style:normal;-webkit-text-stroke:2px var(--accent);color:transparent}
-@supports not (-webkit-text-stroke:1px #000){.hero h1 i{color:var(--accent)}}
+.hero h1 i{font-style:normal;-webkit-text-stroke:0;color:var(--accent)}
 .hero-lede{font-size:1.06rem;color:var(--ink-2);max-width:34rem;margin-bottom:clamp(2.5rem,6vw,4rem)}
 
 .dial{
@@ -479,7 +478,7 @@ function cb_naverLead(label) {
         </div>
       </div>
       <div class="navitem" data-open="false">
-        <a class="navlink" href="property.html#compare" aria-controls="sub-pd">
+        <a class="navlink" href="property.html" aria-controls="sub-pd">
           이혼과 재산분할 <i aria-hidden="true">▼</i>
         </a>
         <div class="navsub" id="sub-pd">

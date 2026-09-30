@@ -124,7 +124,7 @@ em{font-style:normal}
 }
 .img.wide{aspect-ratio:3/2;max-height:min(70vh,680px)}
 .img.tall{aspect-ratio:3/4}
-.img img{width:100%;height:100%;object-fit:cover;display:block;position:relative;z-index:2}
+.img img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0;z-index:2}
 .img:has(img)::after{display:none}
 .cap{font-size:.86rem;color:var(--ink-3);margin-top:.7rem}
 
@@ -521,7 +521,7 @@ function cb_naverLead(label) {
   </div>
 
   <figure style="margin:0">
-    <div class="img wide"><span>이미지 영역 · 3:2 · 2100 × 1400<br>창가·테이블 등 정적인 실내 · 저채도</span></div>
+    <div class="img wide"><span>이미지 준비 중</span><img src="hero-divorce.jpg" alt="정적인 실내 풍경" onerror="this.remove()"></div>
     <figcaption class="cap">인물이 등장하지 않는 편이 좋습니다.</figcaption>
   </figure>
 </div>
@@ -884,7 +884,7 @@ function cb_naverLead(label) {
           인천 서구·계양구·부평구·중구·동구·미추홀구·연수구·남동구와 김포·부천에서 찾아오십니다.
         </p>
       </div>
-      <div class="img tall"><span>이미지 영역 · 3:4 · 900 × 1200<br>변호사 인물 또는 상담 장면</span></div>
+      <div class="img tall"><span>이미지 준비 중</span><img src="lawyer-sumin.jpg" alt="법률사무소 청변 김수민 변호사" onerror="this.remove()"></div>
     </div>
 
     <div class="hang">
